@@ -1,0 +1,28 @@
+:root, :host{
+    scrollbar-gutter: auto;
+  --bs-radius-5: 0.25rem;
+  --bs-spacer: 1rem;
+  --bs-primary-base: var(--bs-orange-400);
+  --bs-primary-bg: var(--bs-primary-base);
+  --bs-primary-bg-subtle: light-dark(var(--bs-orange-100), var(--bs-orange-900));
+  --bs-primary-fg: light-dark(var(--bs-orange-600), var(--bs-orange-400));
+  --bs-primary-border: light-dark(var(--bs-orange-300), var(--bs-orange-600));
+}
+
+tr{
+    text-wrap: nowrap;
+}
+
+.token-demo {
+  --bs-radius-5: 0.5rem;
+  --bs-spacer: 1rem;
+  --bs-primary-base: var(--bs-green-600);
+  --bs-primary-bg: var(--bs-primary-base);
+  --bs-primary-bg-subtle: light-dark(var(--bs-green-100), var(--bs-green-900));
+  --bs-primary-fg: light-dark(var(--bs-green-800), var(--bs-green-600));
+  --bs-primary-border: light-dark(var(--bs-green-500), var(--bs-green-700));
+}
+
+select{
+    --control-select-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='grey' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/></svg>") !important;
+    background-image: var(--control-select-bg) !important;}
